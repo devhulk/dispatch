@@ -1,0 +1,29 @@
+{
+  "name": "dispatch",
+  "version": "1.0.0",
+  "description": "dispatchAPI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devhulk/dispatch.git"
+  },
+  "author": "devhulk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devhulk/dispatch/issues"
+  },
+  "homepage": "https://github.com/devhulk/dispatch#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "commander": "^2.9.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.10.6",
+    "twilio": "^3.3.0"
+  },
+  "devDependencies": {}
+}

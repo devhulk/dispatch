@@ -16,7 +16,7 @@ class Notification {
         let client = new twilio(accountSid, authToken)
 
           client.messages.create({
-            to: '+17046142039',  // Text this number 
+            to: '+',  // Put phonenumber to text here 
             from: '+19804306958', //Twilio number
             body: mess,
           })
